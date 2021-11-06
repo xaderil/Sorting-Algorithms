@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/max/Desktop/Code/SortingAlgorithms/Field.cpp">
+			<Option target="SortingAlgorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/max/Desktop/Code/SortingAlgorithms/Field.h">
+			<Option target="SortingAlgorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/max/Desktop/Code/SortingAlgorithms/SortingAlgorithms.cpp">
+			<Option target="SortingAlgorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/max/Desktop/Code/SortingAlgorithms/SortingAlgorithms.h">
+			<Option target="SortingAlgorithms"/>
+		</Unit>
 		<Unit filename="C:/Users/max/Desktop/Code/SortingAlgorithms/main.cpp">
 			<Option target="SortingAlgorithms"/>
 		</Unit>

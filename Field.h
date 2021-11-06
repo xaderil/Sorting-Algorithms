@@ -1,14 +1,28 @@
-//
-// Created by max on 02.11.2021.
-//
+#include <SFML/Graphics.hpp>
+#include <iostream>
+#include <numeric>
+#include <vector>
 
-#ifndef MAIN_CPP_FIELD_H
-#define MAIN_CPP_FIELD_H
-
-
-class Field {
-
+struct Column {
+    Column() {};
+    Column(unsigned int ind, sf::RectangleShape&& rect) : index(ind), cell(rect) {};
+    unsigned int index;
+    sf::RectangleShape cell;
 };
 
+class Field {
+    public:
+        explicit Field(float colNumber,
+                       float gapWidth = 0.05,
+                       float gapEdgesWidth = 0.02,
+                       float resolutionWidth = 1280,
+                       float resolutionHeight = 720);
+        void drawAllColumns(sf::RenderWindow& window);
+        Column operator [] (int index);
+        std::vector<Column> getColumns();
 
-#endif //MAIN_CPP_FIELD_H
+    private:
+        std::vector<Column> columns;
+        std::vector<int> numbers;
+};
+

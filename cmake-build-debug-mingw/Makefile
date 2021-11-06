@@ -128,6 +128,54 @@ SortingAlgorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortingAlgorithms.dir\build.make CMakeFiles/SortingAlgorithms.dir/build
 .PHONY : SortingAlgorithms/fast
 
+Field.obj: Field.cpp.obj
+.PHONY : Field.obj
+
+# target to build an object file
+Field.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortingAlgorithms.dir\build.make CMakeFiles/SortingAlgorithms.dir/Field.cpp.obj
+.PHONY : Field.cpp.obj
+
+Field.i: Field.cpp.i
+.PHONY : Field.i
+
+# target to preprocess a source file
+Field.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortingAlgorithms.dir\build.make CMakeFiles/SortingAlgorithms.dir/Field.cpp.i
+.PHONY : Field.cpp.i
+
+Field.s: Field.cpp.s
+.PHONY : Field.s
+
+# target to generate assembly for a file
+Field.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortingAlgorithms.dir\build.make CMakeFiles/SortingAlgorithms.dir/Field.cpp.s
+.PHONY : Field.cpp.s
+
+SortingAlgorithms.obj: SortingAlgorithms.cpp.obj
+.PHONY : SortingAlgorithms.obj
+
+# target to build an object file
+SortingAlgorithms.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortingAlgorithms.dir\build.make CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.obj
+.PHONY : SortingAlgorithms.cpp.obj
+
+SortingAlgorithms.i: SortingAlgorithms.cpp.i
+.PHONY : SortingAlgorithms.i
+
+# target to preprocess a source file
+SortingAlgorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortingAlgorithms.dir\build.make CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.i
+.PHONY : SortingAlgorithms.cpp.i
+
+SortingAlgorithms.s: SortingAlgorithms.cpp.s
+.PHONY : SortingAlgorithms.s
+
+# target to generate assembly for a file
+SortingAlgorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortingAlgorithms.dir\build.make CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.s
+.PHONY : SortingAlgorithms.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SortingAlgorithms
+	@echo ... Field.obj
+	@echo ... Field.i
+	@echo ... Field.s
+	@echo ... SortingAlgorithms.obj
+	@echo ... SortingAlgorithms.i
+	@echo ... SortingAlgorithms.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

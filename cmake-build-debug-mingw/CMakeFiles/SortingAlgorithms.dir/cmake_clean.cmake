@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SortingAlgorithms.dir/Field.cpp.obj"
+  "CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.obj"
   "CMakeFiles/SortingAlgorithms.dir/main.cpp.obj"
   "SortingAlgorithms.exe"
   "SortingAlgorithms.exe.manifest"

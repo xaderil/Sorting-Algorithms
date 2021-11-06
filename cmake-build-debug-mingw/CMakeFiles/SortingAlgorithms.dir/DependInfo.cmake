@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/max/Desktop/Code/SortingAlgorithms/Field.cpp" "C:/Users/max/Desktop/Code/SortingAlgorithms/cmake-build-debug-mingw/CMakeFiles/SortingAlgorithms.dir/Field.cpp.obj"
+  "C:/Users/max/Desktop/Code/SortingAlgorithms/SortingAlgorithms.cpp" "C:/Users/max/Desktop/Code/SortingAlgorithms/cmake-build-debug-mingw/CMakeFiles/SortingAlgorithms.dir/SortingAlgorithms.cpp.obj"
   "C:/Users/max/Desktop/Code/SortingAlgorithms/main.cpp" "C:/Users/max/Desktop/Code/SortingAlgorithms/cmake-build-debug-mingw/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
