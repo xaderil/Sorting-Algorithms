@@ -2,11 +2,12 @@
 #include <iostream>
 #include <numeric>
 #include <vector>
+#include <random>
+#include <thread>
+#include <chrono>
 
 struct Column {
-    Column() {};
-    Column(unsigned int ind, sf::RectangleShape&& rect) : index(ind), cell(rect) {};
-    unsigned int index;
+    float index{};
     sf::RectangleShape cell;
 };
 
@@ -17,12 +18,24 @@ class Field {
                        float gapEdgesWidth = 0.02,
                        float resolutionWidth = 1280,
                        float resolutionHeight = 720);
+
         void drawAllColumns(sf::RenderWindow& window);
-        Column operator [] (int index);
-        std::vector<Column> getColumns();
+        void setColumnPosition(Column& column);
+        void randomizeColumns();
+
+        std::vector<Column>& getColumns();
+
+        Column& operator [] (int index);
 
     private:
         std::vector<Column> columns;
-        std::vector<int> numbers;
+//        std::vector<int> numbers;
+        float numberOfColumns;
+        float resolutionWithoutEdges;
+        float widthOfCell;
+        float columnsGap;
+        float edgesGap;
+        float resolutionWidth;
+        float resolutionHeight;
 };
 

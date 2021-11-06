@@ -2,7 +2,7 @@
 
 class SortingAlgorithms {
 public:
-    static void BubbleSort(Field& field, sf::RenderWindow& window);
+    static void BubbleSort(Field& field, sf::RenderWindow& window, sf::Event& event);
 };
 
 

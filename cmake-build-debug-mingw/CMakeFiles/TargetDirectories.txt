@@ -1,3 +1,0 @@
-C:/Users/max/Desktop/Code/SortingAlgorithms/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
-C:/Users/max/Desktop/Code/SortingAlgorithms/cmake-build-debug-mingw/CMakeFiles/SortingAlgorithms.dir
-C:/Users/max/Desktop/Code/SortingAlgorithms/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
