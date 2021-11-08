@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.0)
 
 project(SortingAlgorithms)
 
-#set(CMAKE_GENERATOR_PLATFORM Visual Studio 15 2017 Win64) # MUST BE SET ACCORDING TO SFML VERSION
 set(CMAKE_CXX_STANDARD 17)
 
 set(SFML_STATIC_LIBRARIES TRUE)

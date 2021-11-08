@@ -7,8 +7,9 @@
 #include <chrono>
 
 struct Column {
-    float index{};
+    float value{};
     sf::RectangleShape cell;
+
 };
 
 class Field {
@@ -29,7 +30,6 @@ class Field {
 
     private:
         std::vector<Column> columns;
-//        std::vector<int> numbers;
         float numberOfColumns;
         float resolutionWithoutEdges;
         float widthOfCell;
